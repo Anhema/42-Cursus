@@ -47,35 +47,32 @@ The table below presents the cursus curriculum in the chronological order in whi
 
 ### Inner Circle (basic curriculum)
 
-|CIRCLE	| PROJECT | TECHNOLOGY | STATUS |
-|:-:	|:--	  |:--	       |:-:     |
-|00	|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)|C|![Project Score - Libft](https://badge42.herokuapp.com/api/project/apuchill/Libft)|
-|:dizzy:|	  |	       |	|
-|01	|[netwhat](01-netwhat/)![Project Score - netwhat](https://badge42.herokuapp.com/api/project/apuchill/netwhat)|
-|01	|[get_next_line](https://github.com/appinha/42cursus-01-get_next_line)|![Project Score - get_next_line](https://badge42.herokuapp.com/api/project/apuchill/get_next_line)|
-|01|[ft_printf](https://github.com/appinha/42cursus-01-ft_printf)|![Project Score - ft_printf](https://badge42.herokuapp.com/api/project/apuchill/ft_printf)|
-|:dizzy:|	  |	       |	|
-|02		|[ft_server](https://github.com/appinha/42cursus-02-ft_server)|docker, .sh, web, SQL	|1.722 XP		|![Project Score - ft_server](https://badge42.herokuapp.com/api/project/apuchill/ft_server)	|level 2 - 32%	|
-|02		|[miniRT](https://github.com/appinha/42cursus-02-miniRT) or cub3d	|C, Computer Graphics	|4.620 XP		|![Project Score - miniRT](https://badge42.herokuapp.com/api/project/apuchill/miniRT)							|level 3 - 6%	|
-|02		|Exam Rank 02						|-						|0 XP			|							|				|
-|:dizzy:|									|						|**= 10.962 XP**|							|				|
-|03		|[libasm](https://github.com/appinha/42cursus-03-libasm)								|Assembly				|966 XP			|![Project Score - libasm](https://badge42.herokuapp.com/api/project/apuchill/libasm)|level 3 - 27%	|
-|03		|minishell							|C						|2.814 XP		|							|				|
-|03		|ft_services						|docker, Kubernetes		|1.008 XP		|							|				|
-|03		|Exam Rank 03						|-						|0 XP			|							|				|
-|:dizzy:|									|						|**= 4.788 XP**	|							|				|
-|04		|Philosophers						|C						|3.360 XP		|							|				|
-|04		|CPP Modules (9)					|C++					|9.660 XP		|							|				|
-|04		|Exam Rank 04						|-						|0 XP			|							|				|
-|:dizzy:|									|						|**= 13.020 XP**|							|				|
-|05		|ft_containers						|C++					|5.796 XP		|							|				|
-|05		|webserv							|C++					|17.304 XP		|							|				|
-|05		|ft_irc								|C++					|17.304 XP		|							|				|
-|05		|Exam Rank 05						|-						|0 XP			|							|				|
-|:dizzy:|									|						|**= 40.404 XP**|							|				|
-|06		|ft_transcendence					|?						|24.360 XP		|							|				|
-|06		|Exam Rank 06						|-						|0 XP			|							|				|
-|:dizzy:|									|						|**= 24.360 XP**|							|				|
-
-  
-# <a id="spa-ver">VERSIÓN EN ESPAÑOL</a>
+|CIRCLE	|PROJECT							|TECHNOLOGY				|STATUS						|
+|:-:	|:--								|:--					|:-:						|
+|00		|[Libft](https://github.com/appinha/42cursus-00-Libft)|C	|							|
+|:dizzy:|									|						|							|
+|01		|[netwhat](01-netwhat/)				|Networks				|							|
+|01		|[get_next_line](https://github.com/appinha/42cursus-01-get_next_line)|C|				|
+|01		|[ft_printf](https://github.com/appinha/42cursus-01-ft_printf)|C|						|
+|:dizzy:|									|						|							|
+|02		|[ft_server](https://github.com/appinha/42cursus-02-ft_server)|docker, .sh, web, SQL|	|
+|02		|[miniRT](https://github.com/appinha/42cursus-02-miniRT) or cub3d|C, Computer Graphics|	|
+|02		|Exam Rank 02						|-						|							|
+|:dizzy:|									|						|							|
+|03		|[libasm](https://github.com/appinha/42cursus-03-libasm)|Assembly|						|
+|03		|minishell							|C						|							|
+|03		|ft_services						|docker, Kubernetes		|							|
+|03		|Exam Rank 03						|-						|							|
+|:dizzy:|									|						|							|
+|04		|Philosophers						|C						|							|
+|04		|CPP Modules (9)					|C++					|							|
+|04		|Exam Rank 04						|-						|							|
+|:dizzy:|									|						|							|
+|05		|ft_containers						|C++					|							|
+|05		|webserv							|C++					|							|
+|05		|ft_irc								|C++					|							|
+|05		|Exam Rank 05						|-						|							|
+|:dizzy:|									|						|							|
+|06		|ft_transcendence					|?						|							|
+|06		|Exam Rank 06						|-						|							|
+|:dizzy:|									|						|							|
