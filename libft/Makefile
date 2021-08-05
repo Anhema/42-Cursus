@@ -6,7 +6,7 @@
 #    By: aherrero <aherrero@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/07/19 14:32:42 by errero            #+#    #+#              #
-#    Updated: 2021/08/02 19:39:57 by aherrero         ###   ########.fr        #
+#    Updated: 2021/08/05 18:55:48 by aherrero         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -47,6 +47,11 @@ SRCS    = ft_memset.c\
           ft_putstr_fd.c\
           ft_putendl_fd.c\
           ft_putnbr_fd.c\
+          ft_lstnew.c\
+          ft_lstadd_front.c\
+          ft_lstsize.c\
+          ft_lstlast.c\
+          ft_lstadd_back.c\
 
 OBJS    = $(SRCS:.c=.o)
 
@@ -69,4 +74,4 @@ fclean: clean
 
 re: fclean all
 
-.PHONY: all bonus clean fclean re .c .o
+.PHONY: all bonus clean fclean re

@@ -6,14 +6,14 @@
 /*   By: aherrero <aherrero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/28 14:26:48 by aherrero          #+#    #+#             */
-/*   Updated: 2021/08/03 20:08:43 by aherrero         ###   ########.fr       */
+/*   Updated: 2021/08/05 19:36:01 by aherrero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 #include "libft.h"
 
-static char	**ft_cleanup(char **dic, size_t i)
+static char	**ft_freemem(char **dic, size_t i)
 {
 	size_t	j;
 
@@ -31,7 +31,7 @@ static char	**ft_cleanup(char **dic, size_t i)
 	return (NULL);
 }
 
-static int	file_lines(const char *str, char c)
+static size_t	file_lines(const char *str, char c)
 {
 	size_t	i;
 	size_t	count;
@@ -58,7 +58,7 @@ static size_t	ft_word_len(const char *str, char c)
 	size_t	count;
 
 	count = 0;
-	while (*str != '\0' && *str != c)
+	while (*str != c && *str != '\0')
 	{
 		str++;
 		count++;
@@ -74,13 +74,13 @@ static char	**fill_dic(char **dest, const char *str, char to_find)
 	i = 0;
 	while (*str != '\0')
 	{
-		while (*str != '\0' && *str == to_find)
+		while (*str == to_find && *str != '\0')
 			str++;
 		if (*str == '\0')
 			continue ;
-		dest[i] = malloc(sizeof(char *) * ft_word_len(str, to_find) + 1);
+		dest[i] = malloc(sizeof(char) * ft_word_len(str, to_find) + 1);
 		if (dest[i] == NULL)
-			return (ft_cleanup(dest, i));
+			return (ft_freemem(dest, i));
 		j = 0;
 		while (*str != to_find && *str != '\0')
 		{
@@ -98,14 +98,10 @@ static char	**fill_dic(char **dest, const char *str, char to_find)
 char	**ft_split(char const *s, char c)
 {
 	char	**dest;
-	int		i;
-	int		lines;
 
 	if (s == NULL)
 		return (NULL);
-	i = 0;
-	lines = file_lines(s, c);
-	dest = malloc(sizeof(char *) * (lines + 1));
+	dest = malloc(sizeof(char *) * (file_lines(s, c) + 1));
 	if (dest == NULL)
 		return (NULL);
 	fill_dic(dest, s, c);
