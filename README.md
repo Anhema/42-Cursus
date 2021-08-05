@@ -49,7 +49,7 @@ The table below presents the cursus curriculum in the chronological order in whi
 
 |CIRCLE	|PROJECT							|TECHNOLOGY				|STATUS						|
 |:-:	|:--								|:--					|:-:						|
-|00		|[Libft](https://github.com/appinha/42cursus-00-Libft)|C	|							|
+|00		|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)|C	|							|
 |:dizzy:|									|						|							|
 |01		|[netwhat](01-netwhat/)				|Networks				|							|
 |01		|[get_next_line](https://github.com/appinha/42cursus-01-get_next_line)|C|				|
