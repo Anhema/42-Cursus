@@ -7,15 +7,15 @@
 </h1>
 <p align="center">
 	<b><i>Projects developed at <a href="https://www.42urduliz.com/">42 Urduliz</a> programming school.</i></b><br>
-	Start date: 12/jul/2021 - the very first 42 class of South America!
+	Start date: 12/jul/2021 - the second 42 piscine of 42 Urduliz!
 </p>
 
 <h3 align="center">
 	<a href="#%EF%B8%8F-about-42">About 42</a>
 	<span> · </span>
-	<a href="#%EF%B8%8F-skills-developed-at-42Cursus">Skills developed at 42cursus</a>
+	<a href="#%EF%B8%8F-skills-developed-at-42Cursus">Skills developed at 42 Cursus</a>
 	<span> · </span>
-	<a href="#-42s-galaxy-curriculum">42's galaxy (curriculum)</a>
+	<a href="#-42s-galaxy-curriculum">42's Holy Graph (curriculum)</a>
 </h3>
 
 ## 🗣️ About 42
