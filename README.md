@@ -55,12 +55,12 @@ The table below presents the cursus curriculum in the chronological order in whi
 |01		|[get_next_line]()													|C						|							|						|
 |01		|[ft_printf]()														|C						|							|						|
 |:dizzy:|																	|						|							|						|
-|02		|[so_long]()														|docker, .sh, web, SQL	|							|						|
+|02		|[so_long]()														|C, Computer Graphics	|							|						|
 |02		|[FdF]()															|C, Computer Graphics	|							|						|
-|02		|[fract-ol]()														|-						|							|						|
+|02		|[fract-ol]()														|C, Computer Graphics	|							|						|
 |02		|[pipex]()															|docker, .sh, web, SQL	|							|						|
-|02		|[minitalk]()														|C, Computer Graphics	|							|						|
-|02		|[push_swap]()														|C, Computer Graphics	|							|						|
+|02		|[minitalk]()														|docker, .sh, web, SQL	|							|						|
+|02		|[push_swap]()														|docker, .sh, web, SQL	|							|						|
 |02		|Exam Rank 02														|-						|							|						|
 |:dizzy:|																	|						|							|						|
 |03		|[Philosophers]()													|Assembly				|							|						|
