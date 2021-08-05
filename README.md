@@ -73,11 +73,12 @@ The table below presents the cursus curriculum in the chronological order in whi
 |04		|[CPP Modules (9)]()												|C++					|							|						|
 |04		|Exam Rank 04														|-						|							|						|
 |:dizzy:|																	|						|							|						|
-|05		|ft_containers														|C++					|							|						|
-|05		|webserv															|C++					|							|						|
-|05		|ft_irc																|C++					|							|						|
+|04		|[Inception]()														|C						|							|						|
+|04		|[ft_containers]()													|C						|							|						|
+|04		|[webserv]()														|C						|							|						|
+|04		|[ft_irc]()															|C						|							|						|
 |05		|Exam Rank 05														|-						|							|						|
 |:dizzy:|																	|						|							|						|
-|06		|ft_transcendence													|?						|							|						|
+|06		|[ft_transcendence]()												|?						|							|						|
 |06		|Exam Rank 06														|-						|							|						|
 |:dizzy:|																	|						|							|						|
