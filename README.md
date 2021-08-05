@@ -47,32 +47,36 @@ The table below presents the cursus curriculum in the chronological order in whi
 
 ### Inner Circle (basic curriculum)
 
-|CIRCLE	|PROJECT															|TECHNOLOGY				|STATUS						|
-|:-:	|:--																|:--					|:-:						|
-|00		|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|C						|:registered:				|
-|:dizzy:|																	|						|							|
-|01		|[Born2beroot]()													|Networks				|							|
-|01		|[get_next_line]()													|C						|							|
-|01		|[ft_printf]()														|C						|							|
-|:dizzy:|																	|						|							|
-|02		|[ft_server]()														|docker, .sh, web, SQL|	|							|
-|02		|[miniRT]() or cub3d												|C, Computer Graphics	|							|
-|02		|Exam Rank 02														|-						|							|
-|:dizzy:|																	|						|							|
-|03		|[libasm]()															|Assembly				|							|
-|03		|minishell															|C						|							|
-|03		|ft_services														|docker, Kubernetes		|							|
-|03		|Exam Rank 03														|-						|							|
-|:dizzy:|																	|						|							|
-|04		|Philosophers														|C						|							|
-|04		|CPP Modules (9)													|C++					|							|
-|04		|Exam Rank 04														|-						|							|
-|:dizzy:|																	|						|							|
-|05		|ft_containers														|C++					|							|
-|05		|webserv															|C++					|							|
-|05		|ft_irc																|C++					|							|
-|05		|Exam Rank 05														|-						|							|
-|:dizzy:|																	|						|							|
-|06		|ft_transcendence													|?						|							|
-|06		|Exam Rank 06														|-						|							|
-|:dizzy:|																	|						|							|
+|CIRCLE	|PROJECT															|TECHNOLOGY				|STATUS						|BONUS					|
+|:-:	|:--																|:--					|:-:						|:-:					|
+|00		|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|C						|:registered:				|:registered:			|
+|:dizzy:|																	|						|							|						|
+|01		|[Born2beroot]()													|Networks				|							|						|
+|01		|[get_next_line]()													|C						|							|						|
+|01		|[ft_printf]()														|C						|							|						|
+|:dizzy:|																	|						|							|						|
+|02		|[so_long]()														|docker, .sh, web, SQL|	|							|						|
+|02		|[FdF]()															|C, Computer Graphics	|							|						|
+|02		|[fract-ol]()														|-						|							|						|
+|02		|[pipex]()															|docker, .sh, web, SQL|	|							|						|
+|02		|[minitalk]()														|C, Computer Graphics	|							|						|
+|02		|[push_swap]()														|C, Computer Graphics	|							|						|
+|02		|Exam Rank 02														|-						|							|						|
+|:dizzy:|																	|						|							|						|
+|03		|[libasm]()															|Assembly				|							|						|
+|03		|minishell															|C						|							|						|
+|03		|ft_services														|docker, Kubernetes		|							|						|
+|03		|Exam Rank 03														|-						|							|						|
+|:dizzy:|																	|						|							|						|
+|04		|Philosophers														|C						|							|						|
+|04		|CPP Modules (9)													|C++					|							|						|
+|04		|Exam Rank 04														|-						|							|						|
+|:dizzy:|																	|						|							|						|
+|05		|ft_containers														|C++					|							|						|
+|05		|webserv															|C++					|							|						|
+|05		|ft_irc																|C++					|							|						|
+|05		|Exam Rank 05														|-						|							|						|
+|:dizzy:|																	|						|							|						|
+|06		|ft_transcendence													|?						|							|						|
+|06		|Exam Rank 06														|-						|							|						|
+|:dizzy:|																	|						|							|						|
