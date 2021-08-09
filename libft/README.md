@@ -1,4 +1,5 @@
 |FUNCIONES DE LIBC                                                      |   UNIT-TEST   |   LIBFTEST    |   WAR-MACHINE |   TRIPOUILLE  |
+|:-:	                                                                |:--			|:--			|:-:			|:-:			|
 |[isalpha](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |
 |[isdigit](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |
 |[isalnum](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |
