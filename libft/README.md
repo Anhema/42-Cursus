@@ -1,3 +1,12 @@
+<h1 align="center">
+	LIBFT
+</h1>
+<p align="center">
+	Escribe tu propia librería, que contenga un
+extracto de todas las funciones importantes para
+tu cursus.
+</p>
+
 :white_check_mark: = OK
 
 :x: = FAILED
