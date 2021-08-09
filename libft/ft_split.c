@@ -6,7 +6,7 @@
 /*   By: aherrero <aherrero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/28 14:26:48 by aherrero          #+#    #+#             */
-/*   Updated: 2021/08/05 19:36:01 by aherrero         ###   ########.fr       */
+/*   Updated: 2021/08/09 12:58:04 by aherrero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -101,7 +101,10 @@ char	**ft_split(char const *s, char c)
 
 	if (s == NULL)
 		return (NULL);
-	dest = malloc(sizeof(char *) * (file_lines(s, c) + 1));
+	if (ft_strlen(s) > 0)
+		dest = malloc(sizeof(char *) * (file_lines(s, c) + 1));
+	else
+		dest = malloc(sizeof(char *) * (0 + 1));
 	if (dest == NULL)
 		return (NULL);
 	fill_dic(dest, s, c);

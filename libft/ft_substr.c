@@ -6,7 +6,7 @@
 /*   By: aherrero <aherrero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/27 19:20:07 by aherrero          #+#    #+#             */
-/*   Updated: 2021/07/27 19:35:35 by aherrero         ###   ########.fr       */
+/*   Updated: 2021/08/09 10:03:49 by aherrero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,20 +15,19 @@
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
-	char	*result;
-	int		i;
+	char		*result;
+	size_t		i;
 
 	if (s == NULL)
 		return (NULL);
-	result = malloc(sizeof(*s) * len + 1);
+	i = 0;
+	if (start > ft_strlen(s))
+		return (ft_strdup(""));
+	if (ft_strlen(s) < len)
+		len = ft_strlen(s);
+	result = malloc(sizeof(*s) * (len + 1));
 	if (result == NULL)
 		return (NULL);
-	i = 0;
-	if (start >= ft_strlen(s))
-	{
-		result[i] = '\0';
-		return (result);
-	}
 	while (len > 0)
 	{
 		result[i] = s[start];

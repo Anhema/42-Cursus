@@ -6,7 +6,7 @@
 /*   By: aherrero <aherrero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/27 19:36:58 by aherrero          #+#    #+#             */
-/*   Updated: 2021/07/28 16:06:19 by aherrero         ###   ########.fr       */
+/*   Updated: 2021/08/06 21:13:49 by aherrero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 
 	if (s1 == NULL || set == NULL)
 		return (NULL);
-	result = malloc(sizeof(*s1) * (ft_strlen(s1)));
+	result = malloc(sizeof(*s1) * (ft_strlen(s1) + 1));
 	if (result == NULL)
 		return (NULL);
 	i = 0;

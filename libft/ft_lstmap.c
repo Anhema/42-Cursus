@@ -1,35 +1,37 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strmapi.c                                       :+:      :+:    :+:   */
+/*   ft_lstmap.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: aherrero <aherrero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/08/02 17:16:28 by aherrero          #+#    #+#             */
-/*   Updated: 2021/08/06 20:13:19 by aherrero         ###   ########.fr       */
+/*   Created: 2021/08/06 19:04:30 by aherrero          #+#    #+#             */
+/*   Updated: 2021/08/09 10:16:51 by aherrero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
 #include "libft.h"
+#include <stdlib.h>
 
-char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
+t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
-	char	*result;
-	int		i;
+	t_list	*result;
 
-	if (!s || !f)
+	if (!lst || !f)
 		return (NULL);
-	result = malloc(sizeof(char) * (ft_strlen(s) + 1));
-	if (result == NULL)
-		return (NULL);
-	result = ft_strdup(s);
-	i = 0;
-	while (result[i] != '\0')
+	while (lst != NULL)
 	{
-		result[i] = (*f)(i, s[i]);
-		i++;
+		if (f(lst->content))
+		{
+			result->content = ft_lstnew(lst)->content;
+			result->next = lst->next;
+			result = result->next;
+		}
+		else
+		{
+			ft_lstdelone(lst, del);
+		}
+		lst = lst->next;
 	}
-	result[i] = '\0';
 	return (result);
 }

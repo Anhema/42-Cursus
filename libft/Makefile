@@ -6,7 +6,7 @@
 #    By: aherrero <aherrero@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/07/19 14:32:42 by errero            #+#    #+#              #
-#    Updated: 2021/08/05 18:55:48 by aherrero         ###   ########.fr        #
+#    Updated: 2021/08/06 19:05:33 by aherrero         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -52,6 +52,10 @@ SRCS    = ft_memset.c\
           ft_lstsize.c\
           ft_lstlast.c\
           ft_lstadd_back.c\
+          ft_lstdelone.c\
+          ft_lstclear.c\
+          ft_lstiter.c\
+          ft_lstmap.c\
 
 OBJS    = $(SRCS:.c=.o)
 
