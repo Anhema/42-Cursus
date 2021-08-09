@@ -1,48 +1,48 @@
-|FUNCIONES DE LIBC                                                      |   UNIT-TEST   |   LIBFTEST    |   WAR-MACHINE |   TRIPOUILLE  |
-|:-:	                                                                |:--			|:--			|:-:			|:-:			|
-|[isalpha](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |
-|[isdigit](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |
-|[isalnum](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |
-|[isascii](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |
-|[isprint](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |
-|[toupper](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |
-|[tolower](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |
-|[atoi](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |
-|[memset](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |
-|[bzero](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |
-|[memcpy](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |
-|[memmove](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |
-|[memchr](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |
-|[memcmp](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |
-|[strlen](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |
-|[strlcpy](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |
-|[strlcat](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |
-|[strnstr](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |
-|[strchr](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |
-|[strrchr](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |
-|[strncmp](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |
-|[strnstr](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |
-|[strdup](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |
-|[calloc](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |
-|FUNCIONES ADICINALES                                                   |               |               |               |               |
-|[ft_substr](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
-|[ft_strjoin](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
-|[ft_strtrim](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
-|[ft_split](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
-|[ft_itoa](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |
-|[ft_strmapi](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
-|[ft_striteri](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
-|[ft_putchar_fd](https://github.com/Anhema/42-Cursus/tree/main/libft)	|               |               |               |               |
-|[ft_putstr_fd](https://github.com/Anhema/42-Cursus/tree/main/libft)	|               |               |               |               |
-|[ft_putendl_fd](https://github.com/Anhema/42-Cursus/tree/main/libft)	|               |               |               |               |
-|[ft_putnbr_fd](https://github.com/Anhema/42-Cursus/tree/main/libft)	|               |               |               |               |
-|PARTE BONUS                                                            |               |               |               |               |
-|[ft_lstnew](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
-|[ft_lstadd_front](https://github.com/Anhema/42-Cursus/tree/main/libft)	|               |               |               |               |
-|[ft_lstsize](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
-|[ft_lstlast](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
-|[ft_lstadd_back](https://github.com/Anhema/42-Cursus/tree/main/libft)	|               |               |               |               |
-|[ft_lstdelone](https://github.com/Anhema/42-Cursus/tree/main/libft)	|               |               |               |               |
-|[ft_lstclear](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
-|[ft_lstiter](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
-|[ft_lstmap](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|FUNCIONES DE LIBC                                                      |  DESCRIPCIÓN  |   UNIT-TEST   |   LIBFTEST    |  WAR-MACHINE  |   TRIPOUILLE  |
+|:-:	                                                                |:-:			|:-:			|:-:			|:-:			|:-:			|
+|[isalpha](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |               |
+|[isdigit](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |               |
+|[isalnum](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |               |
+|[isascii](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |               |
+|[isprint](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |               |
+|[toupper](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |               |
+|[tolower](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |               |
+|[atoi](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |               |
+|[memset](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |               |
+|[bzero](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |               |
+|[memcpy](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |               |
+|[memmove](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |               |
+|[memchr](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |               |
+|[memcmp](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |               |
+|[strlen](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |               |
+|[strlcpy](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |               |
+|[strlcat](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |               |
+|[strnstr](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |               |
+|[strchr](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |               |
+|[strrchr](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |               |
+|[strncmp](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |               |
+|[strnstr](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |               |
+|[strdup](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |               |
+|[calloc](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |               |               |               |               |               |
+|FUNCIONES ADICIONALES                                                   |               |               |               |               |               |
+|[ft_substr](https://github.com/Anhema/42-Cursus/tree/main/libft)		|Reserva con malloc(3) memoria para devolver una string nueva basada en la string ’s’. La nueva string empieza en el índice ’start’ y tiene una longitud máxima ’len’.            |               |               |               |               |
+|[ft_strjoin](https://github.com/Anhema/42-Cursus/tree/main/libft)		|Reserva con malloc(3) una nueva string, basada en la unión de las dos strings dadas como parámetros.                                                                             |               |               |               |               |
+|[ft_strtrim](https://github.com/Anhema/42-Cursus/tree/main/libft)		|Reserva con malloc(3) y devuelve una copia de ’s1’ con los caracteres dados en ’set’ eliminados tanto del principio como del final.                                          |               |               |               |               |
+|[ft_split](https://github.com/Anhema/42-Cursus/tree/main/libft)		|Reserva con malloc(3) y devuelve un array de strings obtenido al separar ’s’ con el caracter ’c’ como delimitador. El array debe terminar en NULL.                          |               |               |               |               |
+|[ft_itoa](https://github.com/Anhema/42-Cursus/tree/main/libft)		    |Reserva con malloc(3) y devuelve una string que representa el número dado como argumento.                                                                              |               |               |               |               |
+|[ft_strmapi](https://github.com/Anhema/42-Cursus/tree/main/libft)		|Aplica la función ’f’ a cada caracter de la string ’s’ para crear la nueva string, resultado de aplicar sucesivas veces ’f’ (utilizando malloc(3)).                        |               |               |               |               |
+|[ft_striteri](https://github.com/Anhema/42-Cursus/tree/main/libft)		|Aplica la función ’f’ a cada caracter de la string dada como argumento, pasando su índice como primer argumento. Cada caracter se pasa como una dirección a ’f’, por si hace falta modificarlo.                                                                                                                                             |               |               |               |               |
+|[ft_putchar_fd](https://github.com/Anhema/42-Cursus/tree/main/libft)	| Envía el caracter ’c’ al file descriptor dado.                                                                                                                                 |               |               |               |               |
+|[ft_putstr_fd](https://github.com/Anhema/42-Cursus/tree/main/libft)	|Escribe la string ’s’ en el file descriptor indicado.                                                                                                                           |               |               |               |               |
+|[ft_putendl_fd](https://github.com/Anhema/42-Cursus/tree/main/libft)	|Escribe la string ’s’ en el file descriptor indicado, seguido de un salto de línea.                                                                                             |               |               |               |               |
+|[ft_putnbr_fd](https://github.com/Anhema/42-Cursus/tree/main/libft)	|Escribe el número ’n’ al file descriptor dado.                                                                                                                                   |               |               |               |               |
+|PARTE BONUS                                                            |               |               |               |               |               |
+|[ft_lstnew](https://github.com/Anhema/42-Cursus/tree/main/libft)		|Reserva con malloc(3) y devuelve un elemento nuevo. La variable ’content’ se inicializa con el valor del parámetro ’content’. La variable ’next’ se inicializa a NULL.          |               |               |               |               |
+|[ft_lstadd_front](https://github.com/Anhema/42-Cursus/tree/main/libft)	|Añade el elemento ’new’ al principio de la lista.                                                                                                                               |               |               |               |               |
+|[ft_lstsize](https://github.com/Anhema/42-Cursus/tree/main/libft)		|Cuenta el número de elemento de una lista.                                                                                                                                       |               |               |               |               |
+|[ft_lstlast](https://github.com/Anhema/42-Cursus/tree/main/libft)		|Devuelve el último elemento de una lista.                                                                                                                                       |               |               |               |               |
+|[ft_lstadd_back](https://github.com/Anhema/42-Cursus/tree/main/libft)	|Añade el elemento ’new’ al final de una lista.                                                                                                                                   |               |               |               |               |
+|[ft_lstdelone](https://github.com/Anhema/42-Cursus/tree/main/libft)	|Toma como parámetro un elemento y libera la memoria del contenido del elemento utilizando la función ’del’ dada como parámetro, por último libera el elemento. La memoria de ’next’ no debe liberarse.                                                                                                                                   |               |               |               |               |
+|[ft_lstclear](https://github.com/Anhema/42-Cursus/tree/main/libft)		|Elimina y libera cada uno de los elementos de la lista dada, utilizando la función ’del’ y free(3). Por último, el puntero a la lista debe ponerse a NULL.                       |               |               |               |               |
+|[ft_lstiter](https://github.com/Anhema/42-Cursus/tree/main/libft)		|Itera la lista ’lst’ y aplica la función ’f’ al contenido de cada elemento.                                                                                                     |               |               |               |               |
+|[ft_lstmap](https://github.com/Anhema/42-Cursus/tree/main/libft)		|Itera la lista ’lst’ y aplica la función ’f’ al contenido de cada elemento. La aplicación correcta de la función ’f’ sobre cada elemento genera una nueva lista con estos. La función ’del’ se utilizará para eliminar el contenido de un elemento en caso de necesitarse.                                                        |               |               |               |               |
