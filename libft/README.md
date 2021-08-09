@@ -1,1 +1,55 @@
-
+|FUNCIONES DE LIBC                                                  |   UNIT-TEST   |   LIBFTEST    |   WAR-MACHINE |   TRIPOUILLE  |
+|:-:	                                                            |:--			|:--			|:-:			|:-:			|
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|:dizzy:                                                            |				|				|				|				|
+|FUNCIONES ADICINALES                                               |               |               |               |               |
+|:-:	                                                            |:--			|:--			|:-:			|:-:			|
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|:dizzy:                                                            |				|				|				|				|
+|PARTE BONUS                                                        |               |               |               |               |
+|:-:	                                                            |:--			|:--			|:-:			|:-:			|
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|               |               |               |               |
+|:dizzy:                                                            |				|				|				|				|
