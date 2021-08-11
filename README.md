@@ -1,7 +1,3 @@
-# :es: <a href="#spa-ver">VERSIÓN EN ESPAÑOL</a> :es:
-
-# :us: ENGLISH VERSION :us:
-
 <h1 align="center">
 	42 Cursus
 </h1>
