@@ -15,9 +15,9 @@
 
 ### Inner Circle (basic curriculum)
 
-|CIRCLE	|PROJECT															|TECHNOLOGY				|STATUS						|BONUS					|
+|CIRCLE	|PROJECT															|TECHNOLOGY				|MANDATORY					|BONUS					|
 |:-:	|:--																|:--					|:-:						|:-:					|
-|00		|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|C						|:registered:				|:registered:			|
+|00		|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|C						|:white_check_mark:			|:white_check_mark:		|
 |:dizzy:|																	|						|							|						|
 |01		|[Born2beroot]()													|Networks				|							|						|
 |01		|[get_next_line]()													|C						|							|						|
