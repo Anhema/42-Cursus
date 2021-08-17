@@ -6,7 +6,7 @@
 #    By: aherrero <aherrero@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/07/19 14:32:42 by errero            #+#    #+#              #
-#    Updated: 2021/08/06 19:05:33 by aherrero         ###   ########.fr        #
+#    Updated: 2021/08/11 17:10:47 by aherrero         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -47,7 +47,8 @@ SRCS    = ft_memset.c\
           ft_putstr_fd.c\
           ft_putendl_fd.c\
           ft_putnbr_fd.c\
-          ft_lstnew.c\
+
+BONUS   = ft_lstnew.c\
           ft_lstadd_front.c\
           ft_lstsize.c\
           ft_lstlast.c\
@@ -58,6 +59,8 @@ SRCS    = ft_memset.c\
           ft_lstmap.c\
 
 OBJS    = $(SRCS:.c=.o)
+
+BONUS_OBJS = $(BONUS:.c=.o)
 
 LIBC    = ar rcs
 CC      = gcc
@@ -77,5 +80,8 @@ fclean: clean
 	$(RM) $(NAME)
 
 re: fclean all
+
+bonus: $(BONUS_OBJS)
+	$(LIBC) $(NAME) $(BONUS_OBJS)
 
 .PHONY: all bonus clean fclean re
