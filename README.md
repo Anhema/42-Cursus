@@ -20,7 +20,7 @@
 |00		|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|C						|:white_check_mark:			|:white_check_mark:		|
 |:dizzy:|																	|						|							|						|
 |01		|[Born2beroot]()													|Networks				|							|						|
-|01		|[get_next_line]()													|C						|							|						|
+|01		|[get_next_line](https://github.com/Anhema/42-Cursus/tree/main/get_next_line)|C				|:white_check_mark:			|:x:					|
 |01		|[ft_printf]()														|C						|							|						|
 |:dizzy:|																	|						|							|						|
 |02		|[so_long]()														|C, Computer Graphics	|							|						|
