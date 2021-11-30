@@ -19,7 +19,7 @@
 |:-:	|:--																|:--					|:-:						|:-:					|
 |00		|[Libft](https://github.com/Anhema/42-Cursus/tree/main/libft)		|C						|:white_check_mark:			|:white_check_mark:		|
 |:dizzy:|																	|						|							|						|
-|01		|[Born2beroot]()													|Networks				|:memo:						|						|
+|01		|[Born2beroot]()													|Networks				|:white_check_mark:			|:white_check_mark:		|
 |01		|[get_next_line](https://github.com/Anhema/42-Cursus/tree/main/get_next_line)|C				|:white_check_mark:			|:x:					|
 |01		|[ft_printf](https://github.com/Anhema/42-Cursus/tree/main/printf)	|C						|:white_check_mark:			|						|
 |:dizzy:|																	|						|							|						|
@@ -28,8 +28,8 @@
 |02		|[fract-ol]()														|C, Computer Graphics	|							|						|
 |02		|[pipex]()															|docker, .sh, web, SQL	|							|						|
 |02		|[minitalk]()														|docker, .sh, web, SQL	|							|						|
-|02		|[push_swap]()														|docker, .sh, web, SQL	|							|						|
-|02		|Exam Rank 02														|-						|							|						|
+|02		|[push_swap]()														|docker, .sh, web, SQL	|:memo:						|						|
+|02		|Exam Rank 02														|-						|:memo:						|						|
 |:dizzy:|																	|						|							|						|
 |03		|[Philosophers]()													|Assembly				|							|						|
 |03		|[minishell]()														|C						|							|						|
