@@ -26,9 +26,9 @@
 |02		|[so_long]()														|C, Computer Graphics	|							|						|
 |02		|[FdF]()															|C, Computer Graphics	|							|						|
 |02		|[fract-ol]()														|C, Computer Graphics	|							|						|
-|02		|[pipex]()															|docker, .sh, web, SQL	|							|						|
-|02		|[minitalk]()														|docker, .sh, web, SQL	|							|						|
-|02		|[push_swap]()														|docker, .sh, web, SQL	|:memo:						|						|
+|02		|[pipex]()															|C						|							|						|
+|02		|[minitalk]()														|C						|							|						|
+|02		|[push_swap]()														|C						|:memo:						|						|
 |02		|Exam Rank 02														|-						|:memo:						|						|
 |:dizzy:|																	|						|							|						|
 |03		|[Philosophers]()													|Assembly				|							|						|
