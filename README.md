@@ -29,7 +29,7 @@
 |02		|[pipex]()															|C						|							|						|
 |02		|[minitalk]()														|C						|							|						|
 |02		|[push_swap]()														|C						|:memo:						|						|
-|02		|Exam Rank 02														|-						|:memo:						|						|
+|02		|Exam Rank 02														|-						|:white_check_mark:			|						|
 |:dizzy:|																	|						|							|						|
 |03		|[Philosophers]()													|Assembly				|							|						|
 |03		|[minishell]()														|C						|							|						|
