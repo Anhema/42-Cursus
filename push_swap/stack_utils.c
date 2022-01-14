@@ -6,30 +6,15 @@
 /*   By: aherrero <aherrero@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/23 19:09:31 by aherrero          #+#    #+#             */
-/*   Updated: 2021/12/29 23:44:00 by aherrero         ###   ########.fr       */
+/*   Updated: 2022/01/13 21:21:14 by aherrero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-t_stack	*create_stack(unsigned int capacity)
-{
-	t_stack	*stack;
-
-	stack = (t_stack *)malloc(sizeof(t_stack));
-	stack->capacity = capacity;
-	stack->top = -1;
-	stack->array = (int *)malloc(stack->capacity * sizeof(int));
-	stack->chunk = (int *)malloc(stack->capacity * sizeof(int));
-	stack->head = -1;
-	stack->a = 0;
-	return (stack);
-}
-
 t_stack	*fill_string(char **argv)
 {
 	int		i;
-	int		j;
 	char	**nbrs;
 	t_stack	*stack;
 
@@ -38,15 +23,16 @@ t_stack	*fill_string(char **argv)
 	while (nbrs[i])
 		i++;
 	stack = create_stack(i);
-	i--;
-	j = 0;
+	i = 0;
 	while (nbrs[i])
 	{
-		stack->array[j] = ft_atoi(nbrs[i]);
-		stack->chunk[j] = 0;
-		i--;
-		j++;
+		if (ft_atoi_error(nbrs[i]) == 0)
+			stack->limit = 1;
+		stack->array[i] = ft_atoi(nbrs[i]);
+		stack->chunk[i] = 0;
+		i++;
 	}
+	free (nbrs);
 	return (stack);
 }
 
@@ -60,13 +46,13 @@ t_stack	*fill_args(char **argv)
 	while (argv[i])
 		i++;
 	stack = create_stack(i - 1);
-	i--;
+	i = 1;
 	j = 0;
-	while (i >= 1)
+	while (argv[i])
 	{
 		stack->array[j] = ft_atoi(argv[i]);
 		stack->chunk[j] = 0;
-		i--;
+		i++;
 		j++;
 	}
 	return (stack);
@@ -77,8 +63,7 @@ t_stack	*split_stack_chunk(t_stack *stack)
 	int	i;
 	int	m;
 
-	//printf("\nMEDIAN = %d\nCHUNK COUNT = %d\n", 0, 0);
-	while (chunk_count(stack, get_max_chunk(stack)) > 2)
+	while (chunk_count(stack, get_max_chunk(stack)) > 5)
 	{
 		i = stack->head;
 		m = median_chunk(stack);
@@ -92,34 +77,52 @@ t_stack	*split_stack_chunk(t_stack *stack)
 	return (stack);
 }
 
-t_stack	*sort_by_chunk(t_stack *stack)
+static t_stack	*sort_by_chunk_aux(t_stack *stack, t_stack *stack_b, int j)
+{
+	int	i;
+
+	i = 0;
+	if (j <= 2)
+		stack_b = sort_chunk_two(stack_b, 0);
+	else if (j == 3)
+		stack_b = sort_three_stack(stack_b);
+	else if (j <= 5 && j > 3)
+		stack_b = sort_five(stack_b, stack);
+	else if (j <= 10 && j > 5)
+		stack_b = sort_ten(stack_b, stack);
+	i = 0;
+	while (i <= stack_b->head)
+	{
+		stack_b->chunk[i] = 0;
+		i++;
+	}
+	return (stack_b);
+}
+
+t_stack	*sort_by_chunk(t_stack *stack, t_stack *stack_b)
 {
 	int	chunk;
-	int	head;
 	int	i;
-	int	n;
+	int	j;
 
 	chunk = get_max_chunk(stack);
-	head = stack->head;
-	n = 0;
-	i = 0;
-	//printf("\nCHUNK: %d\nCHUNK COUNT: %d\n", chunk, chunk_count(stack, chunk));
-	while (n < chunk_count(stack, chunk))
-	{
-		if (stack->chunk[stack->head] != chunk)
-			stack->head--;
-		else
-		{
-				stack = rotate(stack);
-				i++;
-				n++;
-		}
-	}
-	stack->head = head;
+	i = chunk_count(stack, chunk);
+	j = i;
 	while (i > 0)
 	{
-		stack = reverse_rotate(stack);
-		i--;
+		if (stack->chunk[0] == chunk)
+		{
+			stack_b = push_operation(stack_b, stack);
+			i--;
+		}
+		else
+		{
+			if (chunk_start(stack) <= stack->head / 2)
+				stack = rotate(stack);
+			else
+				stack = reverse_rotate(stack);
+		}
 	}
+	sort_by_chunk_aux(stack, stack_b, j);
 	return (stack);
 }

@@ -6,7 +6,7 @@
 #    By: aherrero <aherrero@student.42urduliz.co    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/07/19 14:32:42 by errero            #+#    #+#              #
-#    Updated: 2021/12/23 22:55:43 by aherrero         ###   ########.fr        #
+#    Updated: 2022/01/05 14:40:24 by aherrero         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -70,10 +70,10 @@ RM      = rm -f
 CFLAGS  = -Wall -Wextra -Werror
 INCS    = libft.h
 
+all:    $(NAME)
+
 $(NAME): $(OBJS) $(INCLUDE)
 	$(LIBC) $(NAME) $(OBJS)
-
-all:    $(NAME)
 
 clean:
 	$(RM) $(OBJS) $(BONUS_OBJS)

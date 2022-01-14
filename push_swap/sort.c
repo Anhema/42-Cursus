@@ -5,168 +5,42 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: aherrero <aherrero@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/25 17:12:03 by aherrero          #+#    #+#             */
-/*   Updated: 2021/12/29 23:40:41 by aherrero         ###   ########.fr       */
+/*   Created: 2022/01/05 13:32:50 by aherrero          #+#    #+#             */
+/*   Updated: 2022/01/13 21:11:49 by aherrero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-t_stack	*sort_chunk_two(t_stack *stack, int chunk)
+void	sort_stack(t_stack *stack)
 {
-	int	x;
-	int	y;
+	t_stack	*stack_b;
+	int		chunk;
 
-	x = stack->array[stack->head];
-	y = stack->array[stack->head - 1];
-	if (chunk != 0)
-	{
-		if (x < y)
-			return (swap(stack));
-	}
+	stack_b = create_stack(stack->capacity);
+	chunk = 0;
+	while (stack->head >= 10)
+		split_by_median(stack_b, stack, ++chunk);
+	if (stack->head < 2)
+		stack = sort_chunk_two(stack, 0);
+	else if (stack->head == 2)
+		stack = sort_three(stack);
+	else if (stack->head > 2 && stack->head < 5)
+		sort_only_five(stack, stack_b);
 	else
+		sort_only_ten(stack, stack_b);
+	while (chunk > 0)
 	{
-		if (x < y)
-			return (swap(stack));
+		stack_b = split_stack_chunk(stack_b);
+		stack_b = sort_by_chunk(stack_b, stack);
+		chunk = get_max_chunk(stack_b);
 	}
-	return (stack);
-}
-
-t_stack	*sort_three_b(t_stack *stack)
-{
-	int	x;
-	int	y;
-	int	j;
-
-	x = stack->array[stack->head];
-	y = stack->array[stack->head - 1];
-	j = stack->array[stack->head - 2];
-	if (x > y && y < j && x < j)
-	{
-		stack = rotate(stack);
-		stack = swap(stack);
-		stack = reverse_rotate(stack);
-		return (swap(stack));
-	}
-	if (x > y && y < j && x > j)
-	{
-		stack = rotate(stack);
-		stack = swap(stack);
-		return (reverse_rotate(stack));
-	}
-	if (x > y && y > j && x > j)
-	{
-		stack = swap(stack);
-		return (reverse_rotate(stack));
-	}
-	if (x < y && y < j && x < j)
-	{
-		stack = rotate(stack);
-		stack = swap(stack);
-		stack = reverse_rotate(stack);
-		stack = swap(stack);
-		stack = rotate(stack);
-		stack = swap(stack);
-		stack =  reverse_rotate(stack);
-		return (stack);
-	}
-	if (x < y && y > j && x < j)
-	{
-		stack = swap(stack);
-		return (rotate(stack));
-	}
-	if (x < y && y > j && x > j)
-		return (reverse_rotate(stack));
-	return (stack);
-}
-
-t_stack	*sort_three(t_stack *stack)
-{
-	int	x;
-	int	y;
-	int	j;
-
-	x = stack->array[stack->head];
-	y = stack->array[stack->head - 1];
-	j = stack->array[stack->head - 2];
-	if (x > y && y < j && x < j)
-		return (swap(stack));
-	if ((x > y && y < j && x < j))
-		return (swap(stack));
-	if (x > y && y > j && x > j)
-	{
-		stack = swap(stack);
-		return (reverse_rotate(stack));
-	}
-	if (x > y && y < j && x > j)
-	{
-		stack = rotate(stack);
-		stack = swap(stack);
-		return (reverse_rotate(stack));
-	}
-	if ((x < y && y < j && x < j) && stack->a != 1)
-	{
-		stack = swap(stack);
-		stack = rotate(stack);
-		stack = swap(stack);
-		stack = reverse_rotate(stack);
-		return (swap(stack));
-	}
-	if (x < y && y > j && x < j)
-	{
-		stack = swap(stack);
-		return (rotate(stack));
-	}
-	if (x < y && y > j && x > j)
-		return (reverse_rotate(stack));
-	return (stack);
-}
-
-int	check_sort(t_stack *stack)
-{
-	int	i;
-	int	chunk;
-
-	chunk = get_max_chunk(stack);
-	i = stack->head;
-	if (stack->a == 1)
-	{
-		while (i > 0)
-		{
-			if (stack->array[i] > stack->array[i - 1])
-				return (0);
-			i--;
-		}
-	}
-	else
-	{
-		while (i > 0)
-		{
-			if (stack->chunk[i - 1] == chunk)
-				if (stack->array[i] < stack->array[i - 1])
-					return (0);
-			i--;
-		}
-	}
-	return (1);
-}
-
-int	check_sort_chunk(t_stack *stack)
-{
-	int	i;
-	int	control;
-	int	chunk;
-
-	i = stack->head;
-	control = 0;
-	chunk = get_max_chunk(stack);
-	while (i >= 0)
-	{
-		if (stack->chunk[i] == chunk && control != 0)
-			return (0);
-		if (stack->chunk[i] != chunk)
-			control = 1;
-		i--;
-	}
-	return (1);
+	// chunk = 0;
+	// while (chunk <= stack->head)
+	// {
+	// 	ft_putnbr_fd(stack->array[chunk], 1);
+	// 	ft_putchar_fd('\n', 1);
+	// 	chunk++;
+	// }
+	free_mem(stack, stack_b);
 }
