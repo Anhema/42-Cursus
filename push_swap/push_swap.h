@@ -63,5 +63,6 @@ int		check_sort_chunk(t_stack *stack);
 void	free_mem(t_stack *stack, t_stack *stack_b);
 void	sort_stack(t_stack *stack);
 t_stack	*sort_only_ten(t_stack *stack, t_stack *stack_b);
+int		get_over_median(t_stack *stack, int pivot);
 
 #endif

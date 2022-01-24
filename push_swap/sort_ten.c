@@ -37,44 +37,58 @@ static t_stack	*split_by_median_stack_aux(t_stack *stack_to,
 	return (stack_to);
 }
 
-static t_stack	*sort_five_aux(t_stack *stack, t_stack *stack_b)
-{
-	int	chunk;
-	int	i;
+// static t_stack	*sort_five_aux(t_stack *stack, t_stack *stack_b)
+// {
+// 	int	chunk;
+// 	int	i;
 
-	i = stack_b->head;
-	chunk = get_max_chunk(stack);
-	while (chunk_count(stack, chunk) >= 3)
-		stack_b = split_by_median_stack_aux(stack_b, stack, chunk);
-	if (stack->head == 2)
-		stack = sort_three(stack);
-	else
-		stack = sort_chunk_two(stack, 0);
-	i = stack_b->head - i;
-	while (i > 0)
-	{
-		stack = push_operation(stack, stack_b);
-		i--;
-	}
-	if (stack->head == 2)
-		stack = sort_three(stack);
-	else
-		stack = sort_chunk_two(stack, 0);
-	return (stack);
-}
+// 	i = stack_b->head;
+// 	chunk = get_max_chunk(stack);
+// 	while (chunk_count(stack, chunk) >= 3)
+// 		stack_b = split_by_median_stack_aux(stack_b, stack, chunk);
+// 	if (stack->head == 2)
+// 		stack = sort_three(stack);
+// 	else
+// 		stack = sort_chunk_two(stack, 0);
+// 	i = stack_b->head - i;
+// 	while (i > 0)
+// 	{
+// 		stack = push_operation(stack, stack_b);
+// 		i--;
+// 	}
+// 	if (stack->head == 2)
+// 		stack = sort_three(stack);
+// 	else
+// 		stack = sort_chunk_two(stack, 0);
+// 	return (stack);
+// }
 
 t_stack	*sort_ten(t_stack *stack, t_stack *stack_b)
 {
 	int	chunk;
 	int	i;
 
+	// chunk = 0;
+	// while (chunk <= stack->head)
+	// {
+	// 	ft_putnbr_fd(stack->array[chunk], 1);
+	// 	ft_putchar_fd('\n', 1);
+	// 	chunk++;
+	// }
 	chunk = get_max_chunk(stack);
 	i = stack_b->head;
 	while (chunk_count(stack, chunk) >= 5)
 		stack_b = split_by_median_stack_aux(stack_b, stack, ++chunk);
-	if (stack->head == 2)
+	// chunk = 0;
+	// while (chunk <= stack->head)
+	// {
+	// 	ft_putnbr_fd(stack->array[chunk], 1);
+	// 	ft_putchar_fd('\n', 1);
+	// 	chunk++;
+	// }
+	if (chunk_count(stack, chunk) == 2)
 		stack = sort_three(stack);
-	else if (stack->head < 2)
+	else if (chunk_count(stack, chunk) < 2)
 		stack = sort_chunk_two(stack, 0);
 	else
 		stack = sort_only_five(stack, stack_b);
@@ -84,11 +98,18 @@ t_stack	*sort_ten(t_stack *stack, t_stack *stack_b)
 		stack = push_operation(stack, stack_b);
 		i--;
 	}
-	if (stack->head == 2)
+	if (chunk_count(stack, chunk) == 2)
 		stack = sort_three(stack);
-	else if (stack->head < 2)
+	else if (chunk_count(stack, chunk) < 2)
 		stack = sort_chunk_two(stack, 0);
 	else
-		stack = sort_five_aux(stack, stack_b);
+		stack = sort_five(stack, stack_b);
+	// chunk = 0;
+	// while (chunk <= stack->head)
+	// {
+	// 	ft_putnbr_fd(stack->array[chunk], 1);
+	// 	ft_putchar_fd('\n', 1);
+	// 	chunk++;
+	// }
 	return (stack);
 }

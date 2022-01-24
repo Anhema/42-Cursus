@@ -44,3 +44,19 @@ void	sort_stack(t_stack *stack)
 	// }
 	free_mem(stack, stack_b);
 }
+
+int	get_over_median(t_stack *stack, int pivot)
+{
+	int	i;
+	int	count;
+
+	i = 0;
+	count = 0;
+	while (i <= stack->head)
+	{
+		if (stack->array[i] <= pivot)
+			count++;
+		i++;
+	}
+	return (count);
+}

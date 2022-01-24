@@ -117,7 +117,8 @@ t_stack	*sort_by_chunk(t_stack *stack, t_stack *stack_b)
 		}
 		else
 		{
-			if (chunk_start(stack) <= stack->head / 2)
+			//if (chunk_start(stack) <= stack->head / 2)
+			if (chunk_start(stack) < stack->head - chunk_end(stack))
 				stack = rotate(stack);
 			else
 				stack = reverse_rotate(stack);

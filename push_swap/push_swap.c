@@ -69,18 +69,19 @@ t_stack
 	*split_by_median(t_stack *stack_to, t_stack *stack_from, int chunk)
 {
 	int	i;
-	int	j;
+	int	count;
 	int	pivot;
 
 	i = 0;
 	pivot = median(stack_from);
-	j = stack_from->head;
-	while (i <= j)
+	count = get_over_median(stack_from, pivot);
+	while (count > 0)
 	{
 		if (stack_from->array[0] <= pivot)
 		{
 			stack_to = push_operation(stack_to, stack_from);
 			stack_to->chunk[0] = chunk;
+			count --;
 		}
 		else
 			stack_from = rotate(stack_from);

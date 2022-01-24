@@ -111,14 +111,8 @@ static t_stack	*sort_five_move(t_stack *stack, t_stack *stack_b, int i, int j)
 t_stack	*sort_five(t_stack *stack, t_stack *stack_b)
 {
 	int	i;
-	int	n;
 	int	j;
-	int	temp;
-	int	temp_b;
 
-	n = 0;
-	temp = get_temp(stack);
-	temp_b = get_temp_b(stack);
 	if (chunk_count(stack, get_max_chunk(stack)) == 5)
 		i = 2;
 	else
@@ -127,3 +121,4 @@ t_stack	*sort_five(t_stack *stack, t_stack *stack_b)
 	stack = sort_five_move(stack, stack_b, i, j);
 	return (stack);
 }
+
