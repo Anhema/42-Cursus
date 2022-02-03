@@ -22,12 +22,12 @@
 |01		|[Born2beroot]()													|Networks				|:white_check_mark:			|:white_check_mark:		|
 |01		|[get_next_line](https://github.com/Anhema/42-Cursus/tree/main/get_next_line)|C				|:white_check_mark:			|:x:					|
 |01		|[ft_printf](https://github.com/Anhema/42-Cursus/tree/main/printf)	|C						|:white_check_mark:			|						|
-|:dizzy:|																	|						|							|						|
+|:dizzy:|																	|						|:memo:						|						|
 |02		|[so_long]()														|C, Computer Graphics	|							|						|
 |02		|[FdF]()															|C, Computer Graphics	|							|						|
 |02		|[fract-ol]()														|C, Computer Graphics	|							|						|
 |02		|[pipex]()															|C						|							|						|
-|02		|[minitalk]()														|C						|:memo:						|						|
+|02		|[minitalk](https://github.com/Anhema/42-Cursus/tree/main/minitalk)	|C						|:white_check_mark:			|						|
 |02		|[push_swap](https://github.com/Anhema/42-Cursus/tree/main/push_swap)|C						|:white_check_mark:			|						|
 |02		|[Exam Rank 02](https://github.com/Anhema/42-Cursus/tree/main/Exam02)|-						|:white_check_mark:			|						|
 |:dizzy:|																	|						|							|						|
