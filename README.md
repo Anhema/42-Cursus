@@ -27,7 +27,7 @@
 |02		|[FdF]()															|C, Computer Graphics	|							|						|
 |02		|[fract-ol]()														|C, Computer Graphics	|							|						|
 |02		|[pipex]()															|C						|							|						|
-|02		|[minitalk](https://github.com/Anhema/42-Cursus/tree/main/minitalk)	|C						|:white_check_mark:			|						|
+|02		|[minitalk](https://github.com/Anhema/42-Cursus/tree/main/minitalk)	|C						|:white_check_mark:			|:white_check_mark:		|
 |02		|[push_swap](https://github.com/Anhema/42-Cursus/tree/main/push_swap)|C						|:white_check_mark:			|						|
 |02		|[Exam Rank 02](https://github.com/Anhema/42-Cursus/tree/main/Exam02)|-						|:white_check_mark:			|						|
 |:dizzy:|																	|						|							|						|
