@@ -23,7 +23,7 @@
 |01		|[get_next_line](https://github.com/Anhema/42-Cursus/tree/main/get_next_line)|C				|:white_check_mark:			|:x:					|
 |01		|[ft_printf](https://github.com/Anhema/42-Cursus/tree/main/printf)	|C						|:white_check_mark:			|						|
 |:dizzy:|																	|						|							|						|
-|02		|[so_long]()														|C, Computer Graphics	|:memo:						|						|
+|02		|[so_long](https://github.com/Anhema/42-Cursus/tree/main/so_long)	|C, Computer Graphics	|:white_check_mark:			|:white_check_mark:		|
 |02		|[FdF]()															|C, Computer Graphics	|							|						|
 |02		|[fract-ol]()														|C, Computer Graphics	|							|						|
 |02		|[pipex]()															|C						|							|						|
@@ -33,7 +33,7 @@
 |:dizzy:|																	|						|							|						|
 |03		|[Philosophers]()													|Assembly				|							|						|
 |03		|[minishell]()														|C						|							|						|
-|03		|Exam Rank 03														|-						|							|						|
+|03		|Exam Rank 03														|-						|:memo:						|						|
 |:dizzy:|																	|						|							|						|
 |04		|[NetPractice]()													|C						|							|						|
 |04		|[cub3d]()															|C						|							|						|
