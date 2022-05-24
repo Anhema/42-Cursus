@@ -31,9 +31,9 @@
 |02		|[push_swap](https://github.com/Anhema/42-Cursus/tree/main/push_swap)|C						|:white_check_mark:			|						|
 |02		|[Exam Rank 02](https://github.com/Anhema/42-Cursus/tree/main/Exam02)|-						|:white_check_mark:			|						|
 |:dizzy:|																	|						|							|						|
-|03		|[Philosophers]()													|Assembly				|							|						|
+|03		|[Philosophers]()													|C						|:white_check_mark:			|:white_check_mark:		|
 |03		|[minishell]()														|C						|							|						|
-|03		|Exam Rank 03														|-						|:memo:						|						|
+|03		|Exam Rank 03														|-						|:white_check_mark:			|						|
 |:dizzy:|																	|						|							|						|
 |04		|[NetPractice]()													|C						|							|						|
 |04		|[cub3d]()															|C						|							|						|
