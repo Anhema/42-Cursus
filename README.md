@@ -32,7 +32,7 @@
 |02		|[Exam Rank 02](https://github.com/Anhema/42-Cursus/tree/main/Exam02)|-						|:white_check_mark:			|						|
 |:dizzy:|																	|						|							|						|
 |03		|[Philosophers]()													|C						|:white_check_mark:			|:white_check_mark:		|
-|03		|[minishell]()														|C						|							|						|
+|03		|[minishell]()														|C						|:white_check_mark:			|						|
 |03		|Exam Rank 03														|-						|:white_check_mark:			|						|
 |:dizzy:|																	|						|							|						|
 |04		|[NetPractice]()													|Network & system administration|					|						|
