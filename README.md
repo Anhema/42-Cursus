@@ -35,7 +35,7 @@
 |03		|[minishell]()														|C						|:white_check_mark:			|						|
 |03		|Exam Rank 03														|-						|:white_check_mark:			|						|
 |:dizzy:|																	|						|							|						|
-|04		|[NetPractice]()													|Network & system administration|					|						|
+|04		|[NetPractice]()													|Network & system administration|:white_check_mark:	|						|
 |04		|[cub3d]()															|C						|							|						|
 |04		|[miniRT]()															|C						|							|						|
 |04		|[CPP Modules (9)]()												|C++					|							|						|
