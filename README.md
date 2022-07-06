@@ -29,7 +29,7 @@
 |02		|[pipex]()															|C						|							|						|
 |02		|[minitalk](https://github.com/Anhema/42-Cursus/tree/main/minitalk)	|C						|:white_check_mark:			|:white_check_mark:		|
 |02		|[push_swap](https://github.com/Anhema/42-Cursus/tree/main/push_swap)|C						|:white_check_mark:			|						|
-|02		|[Exam Rank 02](https://github.com/Anhema/42-Cursus/tree/main/Exam02)|-						|:white_check_mark:			|						|
+|02		|Exam Rank 02														|-						|:white_check_mark:			|						|
 |:dizzy:|																	|						|							|						|
 |03		|[Philosophers]()													|C						|:white_check_mark:			|:white_check_mark:		|
 |03		|[minishell]()														|C						|:white_check_mark:			|						|
