@@ -41,10 +41,10 @@
 |04		|[CPP Modules (9)]()												|C++					|							|						|
 |04		|Exam Rank 04														|-						|							|						|
 |:dizzy:|																	|						|							|						|
-|04		|[Inception]()														|C						|							|						|
-|04		|[ft_containers]()													|C						|							|						|
-|04		|[webserv]()														|C						|							|						|
-|04		|[ft_irc]()															|C						|							|						|
+|04		|[Inception]()														|C++					|							|						|
+|04		|[ft_containers]()													|C++					|							|						|
+|04		|[webserv]()														|C++					|							|						|
+|04		|[ft_irc]()															|C++					|							|						|
 |05		|Exam Rank 05														|-						|							|						|
 |:dizzy:|																	|						|							|						|
 |06		|[ft_transcendence]()												|?						|							|						|
