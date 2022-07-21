@@ -31,7 +31,7 @@
 |02		|[push_swap](https://github.com/Anhema/42-Cursus/tree/main/push_swap)|C						|:white_check_mark:			|						|
 |02		|Exam Rank 02														|-						|:white_check_mark:			|						|
 |:dizzy:|																	|						|							|						|
-|03		|[Philosophers](https://github.com/Anhema/42-Cursus/tree/main/philo)|C						|:white_check_mark:			|:white_check_mark:		|
+|03		|[Philosophers](https://github.com/Anhema/42-Cursus/tree/main/philosphers)|C				|:white_check_mark:			|:white_check_mark:		|
 |03		|[minishell](https://github.com/Anhema/42-Cursus/tree/main/minishell)|C						|:white_check_mark:			|						|
 |03		|Exam Rank 03														|-						|:white_check_mark:			|						|
 |:dizzy:|																	|						|							|						|
