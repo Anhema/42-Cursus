@@ -39,7 +39,7 @@
 |04		|[cub3d]()															|C						|							|						|
 |04		|[miniRT]()															|C						|							|						|
 |04		|[CPP Modules (9)]()												|C++					|							|						|
-|04		|Exam Rank 04														|-						|							|						|
+|04		|Exam Rank 04														|-						|:white_check_mark:			|						|
 |:dizzy:|																	|						|							|						|
 |04		|[Inception]()														|C++					|							|						|
 |04		|[ft_containers]()													|C++					|							|						|
