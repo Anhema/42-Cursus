@@ -36,7 +36,7 @@
 |03		|Exam Rank 03														|-						|:white_check_mark:			|						|
 |:dizzy:|																	|						|							|						|
 |04		|[NetPractice]()													|Network & system administration|:white_check_mark:	|						|
-|04		|[cub3d]()															|C, Computer Graphics	|							|						|
+|04		|[cub3d]()															|C, Computer Graphics	|:white_check_mark:			|:white_check_mark:		|
 |04		|[miniRT]()															|C, Computer Graphics	|							|						|
 |04		|[CPP Modules (9)]()												|C++					|							|						|
 |04		|Exam Rank 04														|-						|:white_check_mark:			|						|
