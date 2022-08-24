@@ -1,0 +1,1879 @@
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr4
+   fun:_pthread_wqthread_setup
+   fun:_pthread_wqthread
+   fun:start_wqthread
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitialize
+   fun:_ZN16ImageLoaderMachO11doImageInitERKN11ImageLoader11LinkContextE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitialize
+   fun:_ZN16ImageLoaderMachO11doImageInitERKN11ImageLoader11LinkContextE
+   fun:_ZN16ImageLoaderMachO16doInitializationERKN11ImageLoader11LinkContextE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitialize
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitialize
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitialize
+   fun:_ZN16ImageLoaderMachO11doImageInitERKN11ImageLoader11LinkContextE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitialize
+   fun:_ZN16ImageLoaderMachO11doImageInitERKN11ImageLoader11LinkContextE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitializeLinkCheck
+   fun:_ZN16ImageLoaderMachO11doImageInitERKN11ImageLoader11LinkContextE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+}
+ 
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZN4objc8DenseMapIP10objc_classS2_NS_17DenseMapValueInfoIS2_EENS_12DenseMapInfoIS2_EENS_6detail12DenseMapPairIS2_S2_EEE4growEj
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitialize
+   fun:_ZN16ImageLoaderMachO11doImageInitERKN11ImageLoader11LinkContextE
+   fun:_ZN16ImageLoaderMachO16doInitializationERKN11ImageLoader11LinkContextE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZN4objc8DenseMapIP10objc_classS2_NS_17DenseMapValueInfoIS2_EENS_12DenseMapInfoIS2_EENS_6detail12DenseMapPairIS2_S2_EEE4growEj
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitialize
+   fun:_ZN16ImageLoaderMachO11doImageInitERKN11ImageLoader11LinkContextE
+   fun:_ZN16ImageLoaderMachO16doInitializationERKN11ImageLoader11LinkContextE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZN4objc8DenseMapIP10objc_classS2_NS_17DenseMapValueInfoIS2_EENS_12DenseMapInfoIS2_EENS_6detail12DenseMapPairIS2_S2_EEE4growEj
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitialize
+   fun:_ZN16ImageLoaderMachO11doImageInitERKN11ImageLoader11LinkContextE
+   fun:_ZN16ImageLoaderMachO16doInitializationERKN11ImageLoader11LinkContextE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZN4objc8DenseMapIP10objc_classS2_NS_17DenseMapValueInfoIS2_EENS_12DenseMapInfoIS2_EENS_6detail12DenseMapPairIS2_S2_EEE4growEj
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitialize
+   fun:_ZN16ImageLoaderMachO11doImageInitERKN11ImageLoader11LinkContextE
+   fun:_ZN16ImageLoaderMachO16doInitializationERKN11ImageLoader11LinkContextE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitialize
+   fun:_ZN16ImageLoaderMachO11doImageInitERKN11ImageLoader11LinkContextE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitialize
+   fun:_ZN16ImageLoaderMachO11doImageInitERKN11ImageLoader11LinkContextE
+   fun:_ZN16ImageLoaderMachO16doInitializationERKN11ImageLoader11LinkContextE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitializeLinkCheck
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitializeLinkCheck
+   fun:_ZN16ImageLoaderMachO11doImageInitERKN11ImageLoader11LinkContextE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitializeLinkCheck
+   fun:_ZN16ImageLoaderMachO11doImageInitERKN11ImageLoader11LinkContextE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZN4objc8DenseMapIP10objc_classS2_NS_17DenseMapValueInfoIS2_EENS_12DenseMapInfoIS2_EENS_6detail12DenseMapPairIS2_S2_EEE4growEj
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZN4objc8DenseMapIP10objc_classS2_NS_17DenseMapValueInfoIS2_EENS_12DenseMapInfoIS2_EENS_6detail12DenseMapPairIS2_S2_EEE4growEj
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:objc_msgSendSuper2
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:objc_msgSendSuper2
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+}
+ 
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitialize
+   fun:_ZN16ImageLoaderMachO11doImageInitERKN11ImageLoader11LinkContextE
+   fun:_ZN16ImageLoaderMachO16doInitializationERKN11ImageLoader11LinkContextE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitialize
+   fun:_ZN16ImageLoaderMachO11doImageInitERKN11ImageLoader11LinkContextE
+   fun:_ZN16ImageLoaderMachO16doInitializationERKN11ImageLoader11LinkContextE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+}
+ 
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitialize
+   fun:_ZN16ImageLoaderMachO11doImageInitERKN11ImageLoader11LinkContextE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitialize
+   fun:_ZN16ImageLoaderMachO11doImageInitERKN11ImageLoader11LinkContextE
+   fun:_ZN16ImageLoaderMachO16doInitializationERKN11ImageLoader11LinkContextE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitialize
+}
+ 
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitialize
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitialize
+   fun:_ZN16ImageLoaderMachO11doImageInitERKN11ImageLoader11LinkContextE
+}
+ 
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitialize
+   fun:_ZN16ImageLoaderMachO11doImageInitERKN11ImageLoader11LinkContextE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitialize
+   fun:_ZN16ImageLoaderMachO11doImageInitERKN11ImageLoader11LinkContextE
+   fun:_ZN16ImageLoaderMachO16doInitializationERKN11ImageLoader11LinkContextE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitialize
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitialize
+   fun:_ZN16ImageLoaderMachO11doImageInitERKN11ImageLoader11LinkContextE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitializeLinkCheck
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitializeLinkCheck
+   fun:_ZN16ImageLoaderMachO11doImageInitERKN11ImageLoader11LinkContextE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitializeLinkCheck
+   fun:_ZN16ImageLoaderMachO11doImageInitERKN11ImageLoader11LinkContextE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitializeLinkCheck
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitializeLinkCheck
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitializeLinkCheck
+   fun:_ZN16ImageLoaderMachO11doImageInitERKN11ImageLoader11LinkContextE
+}
+ 
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitializeLinkCheck
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitializeLinkCheck
+   fun:_ZN16ImageLoaderMachO11doImageInitERKN11ImageLoader11LinkContextE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+}
+ 
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+}
+ 
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+}
+ 
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:weak_register_no_lock
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+}
+ 
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:weak_register_no_lock
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:weak_register_no_lock
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:objc_msgSendSuper2
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:objc_msgSendSuper2
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:property_copyAttributeValue
+   fun:_ZL10free_classP10objc_class
+   fun:objc_msgLookup
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader19processInitializersERKNS_11LinkContextEjRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader19processInitializersERKNS_11LinkContextEjRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader15runInitializersERKNS_11LinkContextERNS_21InitializerTimingListE
+   fun:_ZN4dyld24initializeMainExecutableEv
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:property_copyAttributeValue
+   fun:_ZL10free_classP10objc_class
+   fun:objc_msgLookup
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader19processInitializersERKNS_11LinkContextEjRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader19processInitializersERKNS_11LinkContextEjRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader15runInitializersERKNS_11LinkContextERNS_21InitializerTimingListE
+   fun:_ZN4dyld24initializeMainExecutableEv
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:property_copyAttributeValue
+   fun:_ZL10free_classP10objc_class
+   fun:objc_msgLookup
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader19processInitializersERKNS_11LinkContextEjRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader19processInitializersERKNS_11LinkContextEjRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader15runInitializersERKNS_11LinkContextERNS_21InitializerTimingListE
+   fun:_ZN4dyld24initializeMainExecutableEv
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_notify_fork_child
+   fun:notify_register_mach_port
+   fun:notify_register_dispatch
+   fun:__96-[_CFXPreferences(SourceAdditions) withSourceForIdentifier:user:byHost:container:cloud:perform:]_block_invoke.213
+   fun:_dispatch_client_callout
+   fun:_dispatch_once_callout
+   fun:_CFPrefsExtractQuadrupleFromPathIfPossible
+   fun:_CFPrefsExtractQuadrupleFromPathIfPossible
+   fun:__108-[_CFXPreferences(SearchListAdditions) withSearchListForIdentifier:container:cloudConfigurationURL:perform:]_block_invoke.249
+   fun:__CFStringAppendFormatCore
+   fun:__CFStringAppendFormatCore
+}
+ 
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_notify_fork_child
+   fun:_notify_fork_child
+   fun:notify_register_check
+   fun:__si_module_static_ds_block_invoke
+   fun:_dispatch_client_callout
+   fun:_dispatch_once_callout
+   fun:si_module_static_ds
+   fun:si_module_with_name
+   fun:si_module_config_modules_for_category
+   fun:__si_module_static_search_block_invoke
+   fun:_dispatch_client_callout
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_notify_fork_child
+   fun:_notify_fork_child
+   fun:notify_register_check
+   fun:__si_module_static_ds_block_invoke
+   fun:_dispatch_client_callout
+   fun:_dispatch_once_callout
+   fun:si_module_static_ds
+   fun:si_module_with_name
+   fun:si_module_config_modules_for_category
+   fun:__si_module_static_search_block_invoke
+   fun:_dispatch_client_callout
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_notify_fork_child
+   fun:_notify_fork_child
+   fun:notify_register_check
+   fun:__si_module_static_ds_block_invoke
+   fun:_dispatch_client_callout
+   fun:_dispatch_once_callout
+   fun:si_module_static_ds
+   fun:si_module_with_name
+   fun:si_module_config_modules_for_category
+   fun:__si_module_static_search_block_invoke
+   fun:_dispatch_client_callout
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_notify_fork_child
+   fun:_notify_fork_child
+   fun:notify_register_check
+   fun:__si_module_static_ds_block_invoke
+   fun:_dispatch_client_callout
+   fun:_dispatch_once_callout
+   fun:si_module_static_ds
+   fun:si_module_with_name
+   fun:si_module_config_modules_for_category
+   fun:__si_module_static_search_block_invoke
+   fun:_dispatch_client_callout
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_notify_fork_child
+   fun:_notify_fork_child
+   fun:notify_register_check
+   fun:_os_trace_prefs_and_mode_refresh_slow
+   fun:_os_activity_create_addr
+   fun:ds_user_byuid
+   fun:si_user_byuid
+   fun:search_item_bynumber
+   fun:search_user_byuid
+   fun:si_user_byuid
+   fun:getpwuid
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitialize
+   fun:_ZN16ImageLoaderMachO11doImageInitERKN11ImageLoader11LinkContextE
+   fun:_ZN16ImageLoaderMachO16doInitializationERKN11ImageLoader11LinkContextE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+   fun:__CFInitialize
+}
+ 
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:objc_registerClassPair
+   fun:__CFStringCreateImmutableFunnel3
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:property_copyAttributeValue
+   fun:_ZL10free_classP10objc_class
+   fun:objc_msgLookup
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader19processInitializersERKNS_11LinkContextEjRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader19processInitializersERKNS_11LinkContextEjRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader15runInitializersERKNS_11LinkContextERNS_21InitializerTimingListE
+   fun:_ZN4dyld24initializeMainExecutableEv
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:property_copyAttributeValue
+   fun:_ZL10free_classP10objc_class
+   fun:objc_msgLookup
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader19processInitializersERKNS_11LinkContextEjRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader19processInitializersERKNS_11LinkContextEjRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader15runInitializersERKNS_11LinkContextERNS_21InitializerTimingListE
+   fun:_ZN4dyld24initializeMainExecutableEv
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:_ZL16attachCategoriesP10objc_classPK21locstamped_category_tji
+   fun:_ZN10objc_class11mangledNameEv
+   fun:_ZL16addRemappedClassP10objc_classS0_
+   fun:objc_initializeClassPair
+   fun:_NSToDoAtProcessStart
+   fun:_NSInitializePlatform
+   fun:objc_msgLookup_fpret
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+}
+ 
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:notify_register_mach_port
+   fun:notify_register_dispatch
+   fun:__96-[_CFXPreferences(SourceAdditions) withSourceForIdentifier:user:byHost:container:cloud:perform:]_block_invoke.213
+   fun:_dispatch_client_callout
+   fun:_dispatch_once_callout
+   fun:_CFPrefsExtractQuadrupleFromPathIfPossible
+   fun:_CFPrefsExtractQuadrupleFromPathIfPossible
+   fun:__108-[_CFXPreferences(SearchListAdditions) withSearchListForIdentifier:container:cloudConfigurationURL:perform:]_block_invoke.249
+   fun:__CFStringAppendFormatCore
+   fun:__CFStringAppendFormatCore
+   fun:__shouldPreventGlobalDomainFallbackForIdentifier_block_invoke
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_notify_fork_child
+   fun:notify_register_mach_port
+   fun:notify_register_dispatch
+   fun:__96-[_CFXPreferences(SourceAdditions) withSourceForIdentifier:user:byHost:container:cloud:perform:]_block_invoke.213
+   fun:_dispatch_client_callout
+   fun:_dispatch_once_callout
+   fun:_CFPrefsExtractQuadrupleFromPathIfPossible
+   fun:_CFPrefsExtractQuadrupleFromPathIfPossible
+   fun:__108-[_CFXPreferences(SearchListAdditions) withSearchListForIdentifier:container:cloudConfigurationURL:perform:]_block_invoke.249
+   fun:__CFStringAppendFormatCore
+   fun:__CFStringAppendFormatCore
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_notify_fork_child
+   fun:notify_register_check
+   fun:__si_module_static_ds_block_invoke
+   fun:_dispatch_client_callout
+   fun:_dispatch_once_callout
+   fun:si_module_static_ds
+   fun:si_module_with_name
+   fun:si_module_config_modules_for_category
+   fun:__si_module_static_search_block_invoke
+   fun:_dispatch_client_callout
+   fun:_dispatch_once_callout
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_notify_fork_child
+   fun:notify_register_check
+   fun:__si_module_static_ds_block_invoke
+   fun:_dispatch_client_callout
+   fun:_dispatch_once_callout
+   fun:si_module_static_ds
+   fun:si_module_with_name
+   fun:si_module_config_modules_for_category
+   fun:__si_module_static_search_block_invoke
+   fun:_dispatch_client_callout
+   fun:_dispatch_once_callout
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_notify_fork_child
+   fun:notify_register_check
+   fun:__si_module_static_ds_block_invoke
+   fun:_dispatch_client_callout
+   fun:_dispatch_once_callout
+   fun:si_module_static_ds
+   fun:si_module_with_name
+   fun:si_module_config_modules_for_category
+   fun:__si_module_static_search_block_invoke
+   fun:_dispatch_client_callout
+   fun:_dispatch_once_callout
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_notify_fork_child
+   fun:notify_register_check
+   fun:__si_module_static_ds_block_invoke
+   fun:_dispatch_client_callout
+   fun:_dispatch_once_callout
+   fun:si_module_static_ds
+   fun:si_module_with_name
+   fun:si_module_config_modules_for_category
+   fun:__si_module_static_search_block_invoke
+   fun:_dispatch_client_callout
+   fun:_dispatch_once_callout
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:notify_register_mach_port
+   fun:notify_register_dispatch
+   fun:_os_log_watch_for_prefchanges
+   fun:_os_trace_prefs_and_mode_refresh_slow
+   fun:_os_activity_create_addr
+   fun:ds_user_byuid
+   fun:si_user_byuid
+   fun:search_item_bynumber
+   fun:search_user_byuid
+   fun:si_user_byuid
+   fun:getpwuid
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_notify_fork_child
+   fun:notify_register_mach_port
+   fun:notify_register_dispatch
+   fun:_os_log_watch_for_prefchanges
+   fun:_os_trace_prefs_and_mode_refresh_slow
+   fun:_os_activity_create_addr
+   fun:ds_user_byuid
+   fun:si_user_byuid
+   fun:search_item_bynumber
+   fun:search_user_byuid
+   fun:si_user_byuid
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_dispatch_calloc
+   fun:_dispatch_unote_create
+   fun:_dispatch_mach_send_create
+   fun:_dispatch_mach_create
+   fun:_voucher_activity_debug_channel_init
+   fun:_dispatch_kq_poll
+   fun:_dispatch_kq_drain
+   fun:_dispatch_kq_unote_update
+   fun:_dispatch_source_install
+   fun:_dispatch_source_activate
+   fun:_dispatch_lane_resume_activate
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:objc_msgSend_stret
+   fun:_os_object_alloc_realized
+   fun:_dispatch_lane_create_with_target
+   fun:_os_log_watch_for_prefchanges
+   fun:_os_trace_prefs_and_mode_refresh_slow
+   fun:_os_activity_create_addr
+   fun:ds_user_byuid
+   fun:si_user_byuid
+   fun:search_item_bynumber
+   fun:search_user_byuid
+   fun:si_user_byuid
+}
+ 
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:property_copyAttributeValue
+   fun:_ZL10free_classP10objc_class
+   fun:objc_msgLookup
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader19processInitializersERKNS_11LinkContextEjRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader19processInitializersERKNS_11LinkContextEjRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader15runInitializersERKNS_11LinkContextERNS_21InitializerTimingListE
+   fun:_ZN4dyld24initializeMainExecutableEv
+}
+ 
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:property_copyAttributeValue
+   fun:_ZL10free_classP10objc_class
+   fun:objc_msgLookup
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader19processInitializersERKNS_11LinkContextEjRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader19processInitializersERKNS_11LinkContextEjRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader15runInitializersERKNS_11LinkContextERNS_21InitializerTimingListE
+   fun:_ZN4dyld24initializeMainExecutableEv
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:property_copyAttributeValue
+   fun:_ZL10free_classP10objc_class
+   fun:objc_msgLookup
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader19processInitializersERKNS_11LinkContextEjRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader19processInitializersERKNS_11LinkContextEjRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader15runInitializersERKNS_11LinkContextERNS_21InitializerTimingListE
+   fun:_ZN4dyld24initializeMainExecutableEv
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:_ZL33realizeClassMaybeSwiftMaybeRelockP10objc_classR8mutex_ttILb0EEb
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:property_copyAttributeValue
+   fun:_ZL10free_classP10objc_class
+   fun:objc_msgLookup
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader19processInitializersERKNS_11LinkContextEjRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader19processInitializersERKNS_11LinkContextEjRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader15runInitializersERKNS_11LinkContextERNS_21InitializerTimingListE
+   fun:_ZN4dyld24initializeMainExecutableEv
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:_ZL24realizeClassWithoutSwiftP10objc_classS0_
+   fun:_ZL32adjustCustomFlagsForMethodChangeP10objc_classP8method_t
+   fun:property_copyAttributeValue
+   fun:_ZL10free_classP10objc_class
+   fun:objc_msgLookup
+   fun:_ZN4dyldL12notifySingleE17dyld_image_statesPK11ImageLoaderPNS1_21InitializerTimingListE
+   fun:_ZN11ImageLoader23recursiveInitializationERKNS_11LinkContextEjPKcRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader19processInitializersERKNS_11LinkContextEjRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader19processInitializersERKNS_11LinkContextEjRNS_21InitializerTimingListERNS_15UninitedUpwardsE
+   fun:_ZN11ImageLoader15runInitializersERKNS_11LinkContextERNS_21InitializerTimingListE
+   fun:_ZN4dyld24initializeMainExecutableEv
+}
