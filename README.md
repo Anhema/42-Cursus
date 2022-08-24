@@ -12,6 +12,7 @@
 	<a href="#-42s-galaxy-curriculum">42's Holy Graph (curriculum)</a>
 </h3>
 
+<div align="center">
 
 ### Inner Circle (basic curriculum)
 
@@ -50,3 +51,5 @@
 |06		|[ft_transcendence]()												|?						|							|						|
 |06		|Exam Rank 06														|-						|							|						|
 |:dizzy:|																	|						|							|						|
+
+</div>
