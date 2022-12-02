@@ -39,7 +39,7 @@
 |04		|[NetPractice]()													|Network & system administration|:white_check_mark:	|						|
 |04		|[cub3d]()															|C, Computer Graphics	|:white_check_mark:			|:white_check_mark:		|
 |04		|[miniRT]()															|C, Computer Graphics	|							|						|
-|04		|[CPP Modules](https://github.com/Anhema/42-Cursus/tree/main/CPP)	|C++					|							|						|
+|04		|[CPP Modules](https://github.com/Anhema/42-Cursus/tree/main/CPP)	|C++					|:white_check_mark:			|						|
 |04		|Exam Rank 04														|-						|:white_check_mark:			|						|
 |:dizzy:|																	|						|							|						|
 |04		|[Inception]()														|C++					|							|						|
