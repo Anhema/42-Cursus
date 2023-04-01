@@ -1,0 +1,66 @@
+
+version: "3.9"
+
+services:
+
+  nginx:
+    container_name: nginx
+    build: ./requirements/nginx/
+    image: nginx
+    restart: unless-stopped
+    volumes:
+      - wordpress:/var/www/html
+    ports:
+      - "443:443"
+    networks:
+      - inception
+    depends_on:
+      - wordpress
+
+  mariadb:
+     container_name: mariadb
+     build: ./requirements/mariadb/
+     image: mariadb
+     restart: unless-stopped
+     env_file: .env
+     networks:
+      - inception
+     expose:
+      - 3306
+     volumes:
+      - mariadb:/var/lib/mysql
+
+  wordpress:
+     container_name: wordpress
+     build: ./requirements/wordpress/
+     image: wordpress
+     depends_on:
+      - mariadb
+     restart: unless-stopped
+     env_file: .env
+     networks:
+      - inception
+     expose:
+      - 9000
+     volumes:
+      - wordpress:/var/www/html
+
+networks:
+     inception:
+      name: my_network
+
+volumes:
+     mariadb:
+      name: mariadb
+      driver: local
+      driver_opts:
+        type: volume
+        o: bind
+        device: /home/aherrero/data/mariadb
+     wordpress:
+      name: wordpress
+      driver: local
+      driver_opts: 
+        type: volume
+        o: bind
+        device: /home/aherrero/data/wordpress
