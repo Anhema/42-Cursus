@@ -42,12 +42,12 @@
 |04		|[CPP Modules 00-04](https://github.com/Anhema/42-Cursus/tree/main/CPP)	|C++					|:white_check_mark:			|						|
 |04		|Exam Rank 04														|-						|:white_check_mark:			|						|
 |:dizzy:|																	|						|							|						|
-|04		|[Inception](https://github.com/Anhema/42-Cursus/tree/main/inception)	|Docker					|:white_check_mark:			|						|
+|04		|[Inception](https://github.com/Anhema/42-Cursus/tree/main/inception)	|Docker				|:white_check_mark:			|						|
 |04		|[CPP Modules 05-09](https://github.com/Anhema/42-Cursus/tree/main/CPP)	|C++				|:white_check_mark:			|						|
 |04		|[webserv]()														|C++					|:white_check_mark:			|						|
 |04		|[ft_irc]()															|C++					|							|						|
 |05		|Exam Rank 05														|-						|:white_check_mark:			|						|
-|:dizzy:|																	|						|:white_check_mark:			|						|
+|:dizzy:|																	|						|							|						|
 |06		|[ft_transcendence]()												|?						|							|						|
 |06		|Exam Rank 06														|-						|							|						|
 |:dizzy:|																	|						|							|						|
